@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1;
+}
+body{
+    position: relative;
+    height: 1000px;
+}
+.content-container{
+    max-width: 1430px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+    input{
+        margin-top: 25px;
+        width: 320px;
+    }
+}
+.modal-2{
+    width: 150px;
+    height: 50px;
+    margin-top: 50px;
+    background-color: pink;
+}
+
+
+#modal_box-1{
+    display: none ;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+
+    &.active{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    title{
+        padding-top: 100%;
+        text-align: center;
+    }
+}
+
+
+
+#bg{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+   
+    &.active{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container{
+        margin-top: 30px;
+        border: 2px solid plum;
+        background: pink;
+        color: white;
+        width: 550px;
+        height: 550px;
+        display: flex;
+        align-items: center;
+
+        .img{
+            width: 65%;
+            height: 530px;
+            margin-left: 10px;
+            background: url(img.png) center/cover;
+            background-repeat: no-repeat;
+        }
+        .conatent{
+            padding-left: 10px;
+            font-family:" Roboto", sans-serif;
+            text-align: center;
+
+            #bg_button{
+                color: white;
+                font-family:" Roboto", sans-serif;
+                background: plum;
+                border: rebeccapurple;
+                margin-top: 200px;
+                width: 100px;
+                height: 30px;
+                
+            }
+        }
+    }
+
+}
