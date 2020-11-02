@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+.ToDoList{
+  margin: 0 auto;
+  width: 350px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  background-color:rgb(190, 190, 190) ;
+  
+}
