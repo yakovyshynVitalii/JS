@@ -1,0 +1,65 @@
+
+.ToDoList{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    width: 500px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color:rgb(190, 190, 190) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Add-to-list_input{
+    width:250px;
+    height: 40px;
+    margin: 20px 0px;
+}
+
+.Add-to-list_button{
+    height: 45px;
+    background: lightgreen;
+    border: 1px solid green;
+
+}
+
+.List-item{
+    padding: 15px 15px 15px 15px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid black;
+}
+.List-item_text{
+ 
+}
+.List-item-completed{
+    text-decoration: line-through;
+}
+.button_container{
+    margin: 0 auto;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.List-item-delete_button{
+    width: 100px;
+    height: 25px;
+    margin-left: 20px;
+    background: crimson;
+    color: white;
+}
+.List-item-completed_button{
+    width: 100px;
+    height: 25px;
+    margin-left: 20px;
+    background: lightgreen;
+    color: black;
+}
